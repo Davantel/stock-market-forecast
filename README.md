@@ -1,1 +1,9 @@
 # stock-market-forecast
+
+O código é responsável por fazer previsões de preços de ações usando regressão linear. Ele usa a biblioteca yfinance para baixar os dados históricos de preços de ações de uma empresa específica. Em seguida, ele filtra os dados para obter apenas os preços de fechamento diários. Os dados são divididos em conjuntos de treino e teste e o modelo de regressão linear é treinado usando os preços de fechamento diários de treino.
+
+O modelo treinado é usado para prever os preços das ações para os próximos dias, meses ou anos, dependendo das opções selecionadas pelo usuário. As previsões são exibidas em uma GUI usando a biblioteca tkinter. O usuário insere o símbolo da ação a ser prevista e seleciona o período de previsão. A GUI exibe o gráfico histórico de preços de ações e a previsão de preços para o período selecionado. O modelo usa as datas de previsão para criar um conjunto de dados de teste e, em seguida, faz previsões com base nesse conjunto de dados de teste. As datas de previsão e os preços previstos são exibidos em um DataFrame pandas.
+
+Este código pode ser útil para investidores que desejam prever o preço futuro de uma determinada ação. No entanto, deve-se notar que a previsão de preços de ações é um processo complexo e impreciso, e os resultados da previsão podem ser afetados por muitos fatores, incluindo condições macroeconômicas, notícias e eventos globais. Portanto, os resultados da previsão devem ser considerados apenas como uma estimativa aproximada e não como uma garantia de desempenho futuro.
+
+Este projeto é de código aberto e os usuários são incentivados a contribuir com sugestões, correções e melhorias. O código está disponível no GitHub e é distribuído sob a licença MIT, o que significa que pode ser usado livremente por qualquer pessoa, inclusive para fins comerciais.
